@@ -1,8 +1,17 @@
+
+import Button from '@/app/components/Button'
 import React from 'react'
 
 const mission = () => {
   return (
-    <div>mission</div>
+   <main>
+    <div>Mission Page </div>
+
+    <div className='mt-5'>
+      <Button/>
+     
+    </div>
+   </main>
   )
 }
 
