@@ -3,6 +3,7 @@ import "./globals.css";
 import About from "./about/page";
 import blog from "./blog/page";
 import Link from "next/link";
+import post from "./post/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,8 @@ export default function RootLayout({ children }) {
               <li> <Link href="/">Home</Link> </li>
               <li> <Link href="/about">About</Link> </li>
               <li> <Link href="/blog">blog</Link> </li>
+              <li> <Link href="/post">post</Link> </li>
+
             </ul>
           </nav>
           <hr/>
